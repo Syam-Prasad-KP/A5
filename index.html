@@ -21,13 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link active" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contact</a>
+                            <a class="nav-link active" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -38,27 +41,135 @@
     <main>
         <section id="home" class="bg-primary-subtle text-dark py-5">
             <div class="container">
-                <div class="row align-items-center">
-                    <h1 class="display-1 fw-bold mb-3">Hello, I'm Syam Prasad</h1>
-                    <p class="lead">An aspiring full stack developer</p>
+                <div class="row min-vh-75 align-items-center">
+                    <div class="col-lg-8 mx-auto text-center py-5">
+                        <h1 class="display-1 fw-bold mb-3">Hello, I'm Syam Prasad</h1>
+                        <p class="lead mb-4">An aspiring <span class="fw-semibold">full stack developer</span></p>
+                        <div class="d-flex gap-3 justify-content-center flex-wrap mt-4">
+                            <a href="#projects" class="btn btn-light btn-lg py-3">View my Projects</a>
+                            <a href="#contact" class="btn btn-outline-dark btn-lg py-3">Get in touch</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="about" py-5>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <img src="img/me.png" alt="profile photo" width="250px" class="img-fluid rounded shadow">
+        <section id="about" class="py-5">
+            <div class="container py-5">
+                <h2 class="display-4 fw-bold text-center mb-5">About Me</h2>
+                <div class="row align-items-center g-4">
+                    <div class="col-md-4 text-center">
+                        <img src="img/me.png" alt="Syam Prasad profile photo" class="img-fluid rounded shadow"
+                            style="max-width: 250px;">
                     </div>
-                    <div class="col-md-6">
-                        <p class="lead">
+                    <div class="col-md-8">
+                        <p class="lead text-center text-md-start">
                             Enthusiastic and detail-oriented Computer Science graduate with a strong foundation in
-                            software development and testing methodologies. Skilled in programming languages like Java,
-                            Python, C. Adept at identifying bugs, ensuring software quality, and collaborating with
-                            cross-functional teams. Passionate about delivering reliable and efficient software
-                            solutions. Eager to contribute to dynamic projects and grow as a software professional.
+                            software development and testing methodologies. Skilled in programming languages like
+                            JavaScript, Python, and C. Adept at identifying bugs, ensuring software quality, and
+                            collaborating with cross-functional teams. Passionate about delivering reliable and
+                            efficient software solutions. Eager to contribute to dynamic projects and grow as a software
+                            professional.
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-5">
+            <div class="container py-5">
+                <h2 class="display-4 fw-bold text-center mb-5">My Projects</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/smartprison.jpg" alt="Smart Prison Image" class="card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Smart Prison</h5>
+                                <p class="card-text">The Prison Management System is a web and mobile app that
+                                    centralizes prisoner data, including profiles, parole, and visitation history. It
+                                    tracks prison activities like food and vegetable sales. The system also includes a
+                                    security feature with motion detection to monitor prisoners and trigger alarms
+                                    during escape attempts, enhancing efficiency and security.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/smoothpath.jpg" alt="Smooth Path" class="card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Smooth Path</h5>
+                                <p class="card-text">Smooth Path is an AI-powered road navigation system designed to
+                                    optimize travel by detecting real-time road conditions. The project focuses on
+                                    generating smooth, efficient paths to enhance driving comfort, vehicle safety, and
+                                    energy efficiency</p>
+                                <a href="#" class="btn btn-primary mt-auto">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="img/Evoting.jpeg" alt="Evoting Image" class="card-img-top">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">e-voting</h5>
+                                <p class="card-text">E-voting refers to the use of electronic systems to cast and count
+                                    votes, enhancing the accessibility, speed, and security of the voting process. It
+                                    can include internet voting, voting machines, or other digital platforms.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-dark text-white">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2 class="display-4 fw-bold text-center mb-5">Contact Form</h2>
+                        <div class="row mb-5">
+                            <div class="col-md-4 text-center mb-4 mb-md-0">
+                                <h5 class="fw-bold">Email</h5>
+                                <p>syamprasadkpoff@gmail.com</p>
+                            </div>
+                            <div class="col-md-4 text-center mb-4 mb-md-0">
+                                <h5 class="fw-bold">Phone</h5>
+                                <p>+91 949 661 3245</p>
+                            </div>
+                            <div class="col-md-4 text-center mb-4 mb-md-0">
+                                <h5 class="fw-bold">Location</h5>
+                                <p>Malappuram, Kerala</p>
+                            </div>
+                        </div>
+                        <form class="bg-light text-dark rounded p-4 shadow">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold">Name :</label>
+                                <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Email" class="form-label fw-bold">Email :</label>
+                                <input type="email" class="form-control form-control-lg" id="Email" placeholder="Enter your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold">Phone no. :</label>
+                                <input type="tel" class="form-control form-control-lg" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label fw-bold">Subject :</label>
+                                <input type="text" class="form-control form-control-lg" id="subject" placeholder="Enter your subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Subject" class="form-label fw-bold">Message :</label>
+                                <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="2" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Submit</button>
+                            <button type="reset" class="btn btn-primary btn-lg w-100 mt-3">Reset</button>
+                        </form>
                     </div>
                 </div>
             </div>
